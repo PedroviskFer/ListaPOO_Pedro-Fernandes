@@ -4,27 +4,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace projPOO_ex2
+namespace projPOO_ex3
 {
     internal class Quadrado
     {
-        private int aresta;
-        private int area;
-        public void SetAresta(int aresta)
+        private double diagonal;
+        private double area;
+
+        public void SetDiagonal(double diagonal)
         {
-            this.aresta = aresta;
+            this.diagonal = diagonal;
         }
-        public int GetAresta()
+                public double GetDiagonal()
         {
-            return this.aresta;
+            return this.diagonal;
         }
-        public int GetArea()
+        public double GetArea()
         {
             return this.area;
         }
-        public void CalArea()
-        {
-            this.area = this.aresta * this.aresta;
+        public void CalcularArea()
+        {          
+            this.area = (this.diagonal * this.diagonal) / 2;
         }
     }
 }
