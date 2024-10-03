@@ -1,4 +1,5 @@
 # ListaPOO_01
+PEDRO FERNANDES BARRETO-AUTOMAÇÃO INDUSTRIAL 2 SEMESTRE
 Essa lista se trata dos exercicios em Programção orientada. Todos os programas são referentes a lista 1 de POO
 --------------------------------------------------------------------------------------
 Lista de Exercícios – Para desenvolvimento utilizando POO
